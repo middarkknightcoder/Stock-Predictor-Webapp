@@ -34,7 +34,7 @@ bcrypt = Bcrypt(app)
 app.secret_key=os.urandom(24)     
 
 # For connection with Mysql database    
-conn = mysql.connector.connect(host="localhost", user="root" ,password="Mysql2004#", database="stock_predictor")
+conn = mysql.connector.connect(host="localhost", user="root" ,password="", database="stock_predictor")
 
 cursor = conn.cursor()    # This is used for represent database
 
