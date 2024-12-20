@@ -1,0 +1,235 @@
+/*CSS for autocomplet suggestion for Compare two company  */
+
+ #suggestionsContainer {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid #ccc;
+            border-top: none;
+            color: #efe7e7;
+            overflow: hidden auto;
+            position: relative;
+        }
+
+        .suggestion {
+            padding: 10px;
+            cursor: pointer;
+           
+        }
+
+        .suggestion:hover {
+            background-color: #b98b8b;
+        }
+
+        #searchInput{
+
+            width:60%;
+            height: 3rem;
+            border-radius: 0.2rem;
+            margin: auto;
+            margin: 3% auto;
+        } 
+
+        /*  CSS for the predict price on the company */
+        
+.search-container {
+    width: 60%;
+    margin: auto;
+    margin-top:2rem;
+    position: relative;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+#results li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#results li:hover {
+    background-color: #f0f0f0;
+}
+
+/* .predict_title{
+
+    background-color: #535DA1;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 0%;
+} */
+    
+  /* companyinfo.html page css */
+
+        .compnay_stat_div{
+            text-align: center;
+            margin-bottom: 6%;
+            width: 70%;
+            margin-left: 12%;
+            border-radius: 1rem;
+        }
+
+        .stat_info_div{
+
+            float: center;
+            background-color: #cad0ce;
+            color: #544667;
+            border-radius: 1rem;
+            
+        }
+        
+        .company_stat_title{
+            background-color: #a0aba8;
+            color:#303832;
+            border-radius: 1rem;
+            padding: 1%;
+        }
+
+        .stat_value_div{
+
+            padding: 2%;
+        }
+
+        .stat_type_name{
+
+            font-size: 1.7rem;
+        }
+
+        /* Compare.html page css*/
+
+        .compare_input_div{
+            text-align: center;
+            width: 50%;
+            background-color: #85d9b5;
+            padding: 2%;
+            border-radius: 2rem;
+            margin-top: 3%;
+        }
+
+        .compare_form{
+            padding: 3%;
+        }
+
+        .compare_title{
+            background-color: #535DA1;
+            display: inline-block;
+            padding: 2%;
+            margin-bottom: 0%;
+             
+        }
+
+        /* compare_result.html table  */
+
+        .compare_result_table{
+
+          width: 80%;
+          margin-top: 4%;
+          background-color: #636ca6;
+          color: white;
+        }
+
+        .comp_resu_tab_ ad{
+
+            font-size: 1.6rem;
+            text-align: center;
+            border-right: 2.5px solid #5fe943;
+            color: #5fe943;
+
+        }
+
+        .comap_resu_indicator{
+            font-size: 1.1rem;
+            text-align: center;
+            border-right: 2.5px solid #5fe943;
+            
+        }
+
+        .comap_resu_values{
+            font-size: 1rem;
+            text-align: center;
+            border-right: 1px solid #ffffff;
+
+        }
+
+        .final_company{
+            width: 72%;
+            margin: auto;
+            text-align: center;
+            background-color: #85d9b5;        
+        }
+
+        .compare_restul_sec{
+            margin-top: 5%;
+            padding: 4%;
+        }
+       
+        .read_more_news{
+            text-align: right;
+        }
+
+        .table-container {
+        width: 80%;
+        max-width: 600px;
+        margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+      }
+
+      /* table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+      }
+
+      th,
+      td {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      thead {
+        background-color: #6c7ae0;
+        color: white;
+      }
+
+      @media (max-width: 600px) {
+        th,
+        td {
+          padding: 10px;
+        }
+      } */
